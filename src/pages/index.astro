@@ -1,8 +1,12 @@
 ---
+import Test from '../components/Test.svelte';
 import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 
 <BaseLayout title="Page Title">
   <p>This is a long long text where is this text </p>
   <button class="btn">Hello daisyUI</button>  
+  <div>
+      <Test client:load></Test>
+  </div>
 </BaseLayout>
